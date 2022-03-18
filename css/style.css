@@ -1,0 +1,223 @@
+form {
+    width: 200px;
+    left: 48%;
+    top: 43.5%;
+    position: absolute;
+    z-index: 1;
+}
+body {
+    background: url(../img/a3.png) no-repeat center center fixed;
+-webkit-background-size: cover;
+
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  
+ 
+    }
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-card {
+    position: absolute;
+    margin-left: 47.7%;
+    margin-top: 2%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    max-width: 200px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.poke-card1 { 
+    position: absolute;
+    margin-left: 49.5%;
+    margin-top: 37%;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    max-width: 800px;
+    width: 100px;
+    white-space: nowrap;
+    border-radius: 4px;
+    color: rgb(0, 0, 0,);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.poke-card2 {
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 27%;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    max-width: 800px;
+    font-size: 15px;
+
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    background-color: #FFF;
+    white-space: nowrap;
+ 
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: absolute;
+    width: 180px;
+    left: 50%;
+    top: 63%;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.poke-img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.fondo-pokedex{
+    position: absolute;
+    width: 55%;
+    left: 25%;
+    height: auto;
+}
+
+@media (max-width: 1023px) {
+
+    .fondo-pokedex{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        height: auto;
+    }
+
+    form {
+        width: 200px;
+        left: 25%;
+        top: 55%;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    input {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .img-container {
+        position: absolute;
+        width: 180px;
+        left: 44%;
+        top: 29%;
+        margin: 10px auto;
+    }
+
+    .poke-img {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .poke-card {
+        position: absolute;
+        margin-left: 23%;
+        margin-top: 125%;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;
+        max-width: 200px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 0px;
+        background-color: rgb(0, 0, 0,);
+     
+      
+    }
+
+    .v{
+        overflow-y:scroll;
+    }
+    .poke-card::before {
+        background: radial-gradient(rgb(255, 255, 255) 33%, transparent 33%);
+    }
+    .poke-card1 {
+        position: absolute;
+        margin-left: 32%;
+        margin-top: 190%;
+        height: fit-content;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;
+        max-width: 800px;
+        font-size: 20px;
+    
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 0px;
+        background-color: #FFF;
+        white-space: nowrap;
+     
+    }
+
+    .poke-card2 {
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 107%;
+        height: fit-content;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;
+        max-width: 800px;
+        font-size: 20px;
+    
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 0px;
+        background-color: #FFF;
+        white-space: nowrap;
+     
+    }
+    
+    
+    
+
+    
+
+}
